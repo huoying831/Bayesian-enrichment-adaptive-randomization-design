@@ -1,9 +1,3 @@
-##########################################################################################
-#### Decide if to dichotomize a continuous marker based on minimum p-value approach.	####
-#### Two arms (one control group and one experimental group) are assumed. 	####
-#### This function is called by Freq_adaptive_design.			####
-##########################################################################################
-
 
 Freq_detect_marker <- function(data, 				
   #####################################################################################################	 	
