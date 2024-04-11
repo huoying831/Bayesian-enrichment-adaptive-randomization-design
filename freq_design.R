@@ -1,13 +1,3 @@
-###################################################################
-# Code to do frequentist adaptive design in the setting of two arms, one experimental arm and one control arm #
-# Time-to-event endpoint T with right censoring allowed  # 
-# Assume one continuous biomarker x is available for each patient #
-# The treatment-by-marker interaction effect is used to decide whether to dichotomize the continuous marker, and the minimum p-value cutoff is specified by the user #
-# One-sided log-rank test is used to test for efficacy, and the p-value cutoff is specified by the user #
-# Point estimate of HR is used to test for futility, and the threshold is specified by the user #
-# If decide to dichotomize, record the marker status for each patient #
-###################################################################
-
 
 Freq_adaptive_design <- function(
   n,
