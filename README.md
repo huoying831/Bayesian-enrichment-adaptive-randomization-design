@@ -1,1 +1,1 @@
-# Bayesian-enrichment-adaptive-randomization-design-
+# Bayesian-enrichment-adaptive-randomization-design
